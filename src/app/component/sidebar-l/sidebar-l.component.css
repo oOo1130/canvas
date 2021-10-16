@@ -1,0 +1,61 @@
+.sidebar_l{
+    width: 110px;
+    justify-content: center; 
+    position: fixed;
+}
+
+.icon_profile{
+    background-color: #EEE5FF;
+    border-radius: 8px;
+    margin-top: 3.5rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon_profile img{
+    height: 75% !important;
+    justify-content: center; 
+    align-self: flex-end !important;
+}
+
+.icon1{
+    padding-top: 2rem;
+}
+.icon1 img, .icon2 img{
+    height: 1.8rem !important;
+    width: 1.8rem !important;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+}
+
+.icon2{
+    margin-top: 5rem;
+}
+
+.icon_flag img{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    border-radius:2rem;
+}
+.badge{
+    position: relative;
+    top: -46px;
+    right: -8px;
+    padding: 0 3px 0 3px;
+    border-radius: 50%;
+    background: #FFE2E5;
+    color: red;
+    font-size: 12px;
+}
+.notification img{
+  /* display: flex; */
+  font-size: 0;
+}

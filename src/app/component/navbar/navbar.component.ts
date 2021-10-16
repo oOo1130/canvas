@@ -8,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   constructor() { }
-
+  
   ngOnInit(): void {
+
   }
 
 }

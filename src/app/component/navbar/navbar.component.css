@@ -4,7 +4,9 @@ div.navbar ul {
     padding: 0;
     overflow: hidden;
   }
-  
+  .navbar{
+    overflow: hidden;
+  }
   li {
     float: left;
     border-radius: 5px;
@@ -13,14 +15,38 @@ div.navbar ul {
     text-align: center;
     padding: 5px;
     text-decoration: none;
+    margin: 1rem;
+    font-size: 1rem;
+    text-transform: initial;
   }
   
   li:hover {
-    background-color:purple;
+    /* background-color:rgb(168, 113, 168); */
     border-radius: 5px;
-    color: white;
+    color: #8950FC;
   }
-  div.navbar{
-    background-color:rosybrown;
+  .navbar div{
+    /* background-color:#FBF6F0; */
+    background-color: inherit;
     left: 10%;
+    /* float:left; */
   }
+  div.navbar button{
+    background-color: black;
+    padding: 7px 15px 7px 15px;
+    color:white;
+    /* float:right; */
+    border-radius: 10px;
+    border-style: hidden;
+    float: right;
+    margin-top: -3rem;
+    margin-right: 1rem;
+}
+  
+  #active{
+    background-color:#8950FC ;
+    border-radius: 20px;
+    color:white;
+    /* padding:0 5px 0 5px ; */
+  }
+
