@@ -1,0 +1,26 @@
+div.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+  li:hover {
+    background-color:purple;
+    border-radius: 5px;
+    color: white;
+  }
+  div.navbar{
+    background-color:rosybrown;
+    left: 10%;
+  }
