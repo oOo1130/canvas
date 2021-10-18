@@ -10,6 +10,9 @@ import { FixbarComponent } from './component/fixbar/fixbar.component';
 import { CommonModule } from '@angular/common';
 import { MaincontentComponent } from './component/maincontent/maincontent.component';
 import { YieldComponent } from './component/yield/yield.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { ColumnchartComponent } from './component/columnchart/columnchart.component';
+import { AgentstatsComponent } from './component/agentstats/agentstats.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +21,15 @@ import { YieldComponent } from './component/yield/yield.component';
     FixbarComponent,
     MaincontentComponent,
     YieldComponent,
+    ColumnchartComponent,
+    AgentstatsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    NgApexchartsModule,
     CommonModule
   ],
   providers: [],
