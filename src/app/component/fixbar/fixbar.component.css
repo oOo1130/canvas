@@ -1,21 +1,7 @@
-.fixbar{
-    /* width: 46px; */
-    position: fixed;
-    top: 30%;
-    right: 0;
-    list-style: none;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top-left-radius: 0.675rem;
-    border-bottom-left-radius: 0.675rem;
-}
 li{
-    width: 31px;
     fill: chartreuse;
     height: 31px;
+    width: 31px;
     border-radius: 5px;
     margin: 5px;
     justify-content: center;
@@ -24,10 +10,10 @@ li{
     align-items: center;
 }
 #setting:hover{
-    background-color: #1BC5BD;
+    background-color:#8950FC;
 }
 #drop:hover{
-    background-color: #8950FC;
+    background-color: #1BC5BD;
 }
 #plane:hover{
     background-color: #FFA800;
@@ -36,21 +22,21 @@ i{
     vertical-align: -0.625em;
 }
 .fa-cog{
-    color:#1BC5BD;
+    color:#8950FC;
 }
 .fa-tint{
-    color:#8950FC;
+    color:#1BC5BD;
 }
 .fa-paper-plane{
     color:#FFA800;
 }
 .fa-cog:hover{
-    background-color: #1BC5BD;
+    background-color:#8950FC;
     color:white;
 }
 .fa-tint:hover{
     color:white;
-    background-color: #8950FC;
+    background-color: #1BC5BD;
 }
 .fa-paper-plane:hover{
     color:white;

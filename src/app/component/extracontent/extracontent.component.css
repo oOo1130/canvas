@@ -1,0 +1,73 @@
+.extracontent {
+    padding:20px;
+    width: 400px;
+}
+
+.searchbar {
+    background-color: #eeeeee;
+    border-radius: 8px;
+    padding-left: 10px;
+    align-items: center;
+}
+.header * {
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.icon-info {
+    color: #8950FC;
+    background-color: #EEE5FF;
+}
+
+.averagecard {
+    margin-top: 2rem;
+    padding:2.25rem;
+    background-color: #c9f7f5;
+    border-radius: 10px;
+    width: 80%;
+}
+.budgetcard {
+    margin-top: 2rem;
+    padding:2.25rem;
+    background-color: #FFF4DE !important;
+    border-radius: 10px;
+    width: 80%;
+}
+.average {
+    padding-right: 1rem;
+    height: 5px;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgba(27, 197, 189, 0.24) !important;
+}
+.budget {
+    padding-right: 1rem;
+    height: 5px;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgba(27, 197, 189, 0.24) !important;
+}
+.average_active {
+    background-color: rgba(255, 168, 0, 0.24) !important;
+    height: 5px;
+    border-radius: 3px;
+    width: 67%;
+}
+.budget_active {
+    background-color: #FFA800 !important;
+    height: 5px;
+    border-radius: 3px;
+    width: 67%;
+}
+
+.percent {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}

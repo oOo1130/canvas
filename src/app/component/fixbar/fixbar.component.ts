@@ -6,8 +6,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fixbar.component.css']
 })
 export class FixbarComponent implements OnInit {
-
-  constructor() { }
+  fixIcons:any = [];
+  constructor() { 
+    this.fixIcons = [
+      {
+        id:"drop",
+        name:"fas fa-tint"
+      },
+      {
+        id:"setting",
+        name:"fas fa-cog"
+      },
+      {
+        id:"plane",
+        name:"fas fa-paper-plane"
+      }
+    ]
+  }
 
   ngOnInit(): void {
   }

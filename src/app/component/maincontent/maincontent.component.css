@@ -5,3 +5,16 @@
     height: 100%;
     width: 100%;
 }
+/* .navbar {
+    display: block;
+    position:sticky;
+} */
+
+
+  .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #FBF6F0;
+    border-radius: 8px;
+  }

@@ -11,8 +11,66 @@
             </a>
         </div>
     </div>
-    <div class="card-content">
-
+    <div class="card-content table-responsive">
+        <table class="agents">
+            <thead class="text-mute">
+                <tr>
+                    <th>
+                        <input class="checkbox" type="checkbox">
+                    </th>
+                    <th>
+                        <p class="min-50" >AUTHORS</p>
+                        <p></p>
+                    </th>
+                    <th class="min-200"></th>
+                    <th class="min-150">
+                        <span>COMPANY</span>
+                        <span> </span>
+                    </th>
+                    <th class="min-150">
+                        <span>PROGRESS</span>
+                        <span> </span>
+                    </th>
+                    <th class="min-150 pr-0">ACTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let agent of agents">
+                    <td>
+                        <input class="checkbox" type="checkbox">
+                    </td>
+                    <td>
+                        <div class="icon_profile mt-1" >
+                            <img src="./assets/svg/{{agent.author_img}}.svg" >
+                        </div>
+                    </td>
+                    <td>
+                        <span>{{agent.name}}</span> <br>
+                        <span class="text-mute">{{agent.skill}}</span>
+                    </td>
+                    <td>
+                        <span>{{agent.company}}</span> <br>
+                        <span class="text-mute">{{agent.job}}</span>
+                    </td>
+                    <td>
+                        <div class="d-flex justify-content-between text-mute">
+                            <span>{{agent.progress}}%</span>
+                            <span>Progress</span>
+                        </div>
+                        <div>
+                            <progress  class="progbar {{agent.barcolor}}" value="{{agent.progress}}" max="100"></progress>
+                        </div>
+                    </td>
+                    <td>
+                        <ul class="actionbar">
+                            <li *ngFor="let actionbar of actionbars" class="actionbar">
+                                <a href="#"><i class="{{actionbar.name}}"></i></a> 
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     
 </div>

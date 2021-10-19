@@ -1,4 +1,5 @@
 <div id="chart">
+  <div>
     <apx-chart
       [series]="series"
       [chart]="charts"
@@ -15,10 +16,12 @@
       [colors]="colors"
       [markers]="markers"
     ></apx-chart>
-    <div class="bg-white br-1 padding-20" >
-        <div *ngFor="let statisticList of statisticLists" class="pt-1 pl-3 pb-1">
-            <p class="text-mute">{{statisticList.title}}</p> 
-            <p class="font-size-h4 font-weight-bolder">${{statisticList.price}}</p>
-        </div>
-    </div>
   </div>
+    
+  <div class="bg-white br-1 padding-20" style="margin-top: -3rem;">
+      <div *ngFor="let statisticList of statisticLists" class="pt-1 pl-3 pb-1">
+          <p class="text-mute">{{statisticList.title}}</p> 
+          <p class="font-size-h4 font-weight-bolder">${{statisticList.price}}</p>
+      </div>
+  </div>
+</div>

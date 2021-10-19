@@ -13,6 +13,8 @@ import { YieldComponent } from './component/yield/yield.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { ColumnchartComponent } from './component/columnchart/columnchart.component';
 import { AgentstatsComponent } from './component/agentstats/agentstats.component';
+import { ExtracontentComponent } from './component/extracontent/extracontent.component';
+import { TodoComponent } from './component/todo/todo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,8 @@ import { AgentstatsComponent } from './component/agentstats/agentstats.component
     YieldComponent,
     ColumnchartComponent,
     AgentstatsComponent,
+    ExtracontentComponent,
+    TodoComponent,
   ],
   imports: [
     BrowserModule,

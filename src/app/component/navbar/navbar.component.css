@@ -4,9 +4,6 @@ div.navbar ul {
     padding: 0;
     overflow: hidden;
   }
-  .navbar{
-    overflow: hidden;
-  }
   li {
     float: left;
     border-radius: 5px;
@@ -49,4 +46,12 @@ div.navbar ul {
     color:white;
     /* padding:0 5px 0 5px ; */
   }
-
+  
+  .sticky {
+    background: #fff;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+    position: fixed;
+    top: 0;
+    height: 120px;
+    width: 100%;
+}

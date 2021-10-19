@@ -2,23 +2,7 @@
     width: 110px;
     justify-content: center; 
     position: fixed;
-}
 
-.icon_profile{
-    background-color: #EEE5FF;
-    border-radius: 8px;
-    margin-top: 3.5rem;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.icon_profile img{
-    height: 75% !important;
-    justify-content: center; 
-    align-self: flex-end !important;
 }
 
 .icon1{
