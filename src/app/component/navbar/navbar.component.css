@@ -24,9 +24,10 @@ div.navbar ul {
   }
   .navbar div{
     /* background-color:#FBF6F0; */
-    background-color: inherit;
+    background-color: #FFF4DE;
     left: 10%;
     /* float:left; */
+    border-radius: 10px;
   }
   div.navbar button{
     background-color: black;
@@ -46,7 +47,7 @@ div.navbar ul {
     color:white;
     /* padding:0 5px 0 5px ; */
   }
-  
+/*   
   .sticky {
     background: #fff;
     box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
@@ -54,4 +55,6 @@ div.navbar ul {
     top: 0;
     height: 120px;
     width: 100%;
-}
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} */

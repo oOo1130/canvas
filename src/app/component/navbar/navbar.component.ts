@@ -7,8 +7,31 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
-
-  constructor() { }
+  menus : any = [];
+  constructor() {
+    this.menus =[
+      {
+        id:"active",
+        name:"Dashboard"
+      },
+      {
+        id:"1",
+        name:"Features"
+      },
+      {
+        id:"1",
+        name:"Crud"
+      },
+      {
+        id:"1",
+        name:"Apps"
+      },
+      {
+        id:"1",
+        name:"Pages"
+      },
+    ]
+   }
   ngOnInit() {
   }
   

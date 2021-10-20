@@ -82,10 +82,10 @@ export class ColumnchartComponent {
         offsetY: 0,
         floating: false,
         style: {
-          fontSize:  '14px',
+          fontSize:  '25px',
           fontWeight:  'bold',
           fontFamily:  undefined,
-          color:  '#263238'
+          color:  '#fff'
         },
       }
       this.colors = ["rgba(255,255,255,0.25)", "#fff"]
@@ -99,13 +99,14 @@ export class ColumnchartComponent {
           enabled:false
         },
         toolbar:{
-          // show:false
+          show:true,
           tools:{
-            download:false,
-            customIcons: [{
-              class:'custom-icon',
-              icon:'<i class="fas fa-ellipsis-h"/>'
-            }] 
+            download:'<i class="fas fa-ellipsis-h"/>',
+            // selection:true,
+            // customIcons: [{
+            //   class:'custom-icon',
+            //   icon:'<i class="fas fa-ellipsis-h"/>'
+            // }] 
           }
         }
       },

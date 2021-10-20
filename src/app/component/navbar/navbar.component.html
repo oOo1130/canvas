@@ -1,11 +1,9 @@
 <div class="navbar">
     <div>
         <ul>
-            <li id="active">Dashboard</li>
-            <li>Features</li>
-            <li>Crud</li>
-            <li>Apps</li>
-            <li>Pages</li>
+            <li *ngFor="let menu of menus" id="{{menu.id}}">
+                {{menu.name}}
+            </li>
         </ul>
     </div>
     <div>
