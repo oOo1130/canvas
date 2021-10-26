@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="card-content table-responsive">
-        <table class="agents">
+        <table class="agents" rules=rows borders=1>
             <thead class="text-mute">
                 <tr>
                     <th>
@@ -37,7 +37,7 @@
             <tbody>
                 <tr *ngFor="let agent of agents">
                     <td>
-                        <input class="checkbox" type="checkbox">
+                        <input class="checkbox" type="checkbox" value="1">
                     </td>
                     <td>
                         <div class="icon_profile mt-1" >
@@ -45,7 +45,7 @@
                         </div>
                     </td>
                     <td>
-                        <span>{{agent.name}}</span> <br>
+                        <span class="name"> <a href="#"> {{agent.name}}</a></span> <br>
                         <span class="text-mute">{{agent.skill}}</span>
                     </td>
                     <td>
@@ -57,9 +57,10 @@
                             <span>{{agent.progress}}%</span>
                             <span>Progress</span>
                         </div>
-                        <div>
-                            <progress  class="progbar {{agent.barcolor}}" value="{{agent.progress}}" max="100"></progress>
+                        <div class="progressbar">
+                            <div class="percent{{agent.progress}}"></div>
                         </div>
+                            
                     </td>
                     <td>
                         <ul class="actionbar">

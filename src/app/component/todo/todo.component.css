@@ -2,7 +2,7 @@
     width: 24px;
     height: 24px;
     -webkit-appearance: none;
-	background-color: #fafafa;
+	/* background-color: #fafafa; */
 	/* border: 1px solid #fafafa; */
 	/* box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05); */
 	padding: 9px;
@@ -22,6 +22,95 @@
 }
 .bulletbar {
     width: 3px;
-    height: 30px;
+    height: 45px;
     background-color: palegreen;
 }
+.color1 {
+	background-color: #1BC5BD;
+}
+.color2 {
+	background-color: #8950FC;
+}
+.color3 {
+	background-color: #FFA800;
+}
+.color4 {
+	background-color: #8950FC;
+}
+.color5 {
+	background-color: #F64E60;
+}
+.checkcolor1 {
+	background-color: #C9F7F5;
+}
+.checkcolor2 {
+	background-color: #EEE5FF;
+}
+.checkcolor3 {
+	background-color: #FFF4DE;
+}
+.checkcolor4 {
+	background-color: #EEE5FF;
+}
+.checkcolor5 {
+	background-color: #FFE2E5;
+}
+.checkcolor1:checked {
+	background-color: #1BC5BD;
+}
+.checkcolor2:checked {
+	background-color: #8950FC;
+}
+.checkcolor3:checked {
+	background-color: #FFA800;
+}
+.checkcolor4:checked {
+	background-color: #8950FC;
+}
+.checkcolor5:checked {
+	background-color: #F64E60;
+}
+a {
+	color: black;
+
+}
+
+.dropbtn {
+	background-color: #3498DB;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
